@@ -118,8 +118,6 @@ main nav {
     display: none;
 }
 main {
-    /*background: url(./images/test1.png) no-repeat center fixed;
-    background-size: cover;*/
     max-height: calc(100vh - 11.39vh);
     max-width: 100vw;
     display: grid;
@@ -253,16 +251,6 @@ table tbody {
     }
     body {
         overflow-x: hidden;
-    }
-    main nav ul.show-menu::before {
-        content: '';
-        position: absolute;
-        top: -53px;
-        right: calc(17vw - 92px);
-        border-top: 20px solid transparent;
-        border-bottom: 33px solid white;
-        border-left: 20px solid transparent;
-        border-right: 20px solid transparent;
     }
     main nav ul.show-menu {
         display: flex;

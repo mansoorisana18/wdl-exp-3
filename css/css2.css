@@ -524,16 +524,6 @@ h6 {
     main nav {
         display: block;
     }
-    main nav ul.show-menu::before {
-        content: '';
-        position: absolute;
-        top: -53px;
-        right: calc(17vw - 92px);
-        border-top: 20px solid transparent;
-        border-bottom: 33px solid white;
-        border-left: 20px solid transparent;
-        border-right: 20px solid transparent;
-    }
     main nav ul.show-menu {
         display: flex;
         flex-direction: column;
