@@ -468,6 +468,10 @@ h6 {
     .contact {
         margin: 35px auto;
     }
+    .sidebar-skills {
+        position: absolute;
+        margin-top: 836px;
+    }
     .skills {
         margin-top: 0px;
     }
@@ -478,12 +482,21 @@ h6 {
         margin-bottom: 30px;
         margin-top: 20px;
     }  
+    .mini table {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
     .pro-card {
         width: 360px;
         height: 218px;
     }
+    .twitter {
+        margin-top: 360px;
+    }
     .pro-side-wrap {
-        margin-top: 60px;
+        position: absolute;
+        margin-top: 790px;
     }
 }
 
@@ -590,6 +603,7 @@ h6 {
         flex-direction: column;
         justify-content: start;
         align-items: center; 
+        min-height: 100vh;
     }
     .academic-cards {
         display: flex;
@@ -629,10 +643,11 @@ h6 {
         animation: moveleft 900ms;
     }
     .side-bar-wrap {
-        align-self: flex-end;
+        position: absolute;
         width:100vw;
         height: 546px;
-        margin-top: 114px;
+        margin-top: 813px;
+        z-index: -5;
 
     }
     .skills {
@@ -658,7 +673,9 @@ h6 {
         width: 440px;
     }
     .sidebar-skills {
-        margin-top: 500px;
+        position: absolute;
+        margin-top: 1141px;
+        z-index: -5;
     }
     .pro-wrap {
         min-height: 100vh;
@@ -680,16 +697,15 @@ h6 {
     }
     .mini table {
         width: 83vw;
-        height: calc(100vh - 175px);
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
+        min-height: calc(100vh - 175px);
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr 1fr 1fr;
     }
-    
+    .twitter {
+        margin-top: 266px;
+    }
     .mini tr{
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
         width: 83vw;
     }
     .mini td {
@@ -699,7 +715,15 @@ h6 {
     .download a {
         font-size: 25px;
     }
+    .bullets p {
+        font-size: 19px;
+        line-height: 27px;   
+        width: 80vw;
+        height: 48px;
+        border-radius: 38px;
+    }
     .pro-side-wrap {
-        margin-top: 0px;
+        margin-top: 718px;
+        z-index: -5;
     }
 }
